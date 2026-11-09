@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "vulnerabilities": [
+    {"id": "SNYK-JS-MONGOOSE-1", "title": "Buffer Memory Exposure", "packageName": "mongoose", "version": "4.13.17", "severity": "high", "cvssScore": 7.5, "fixedIn": ["4.13.18", "5.0.0"], "from": ["goof@1.0.1", "mongoose@4.13.17"], "identifiers": {"CVE": ["CVE-2016-0001"]}, "upgradePath": ["goof@1.0.1", "mongoose@5.0.0"]},
+    {"id": "SNYK-JS-MONGOOSE-1", "title": "Buffer Memory Exposure", "packageName": "mongoose", "version": "4.13.17", "severity": "high", "cvssScore": 7.5, "fixedIn": ["4.13.18", "5.0.0"], "from": ["goof@1.0.1", "mongoose@4.13.17"], "identifiers": {"CVE": ["CVE-2016-0001"]}},
+    {"id": "SNYK-JS-MS-2", "title": "ReDoS", "packageName": "ms", "version": "0.7.1", "severity": "medium", "cvssScore": 5.3, "fixedIn": ["2.0.0"], "from": ["goof@1.0.1", "express@4.16.0", "debug@2.6.9", "ms@0.7.1"], "identifiers": {"CVE": []}},
+    {"id": "SNYK-JS-MS-2", "title": "ReDoS", "packageName": "ms", "version": "0.7.1", "severity": "medium", "cvssScore": 5.3, "fixedIn": ["2.0.0"], "from": ["goof@1.0.1", "send@0.16.0", "ms@0.7.1"], "identifiers": {"CVE": []}},
+    {"id": "SNYK-JS-IGNORED-3", "title": "Ignored example", "packageName": "st", "version": "1.2.2", "severity": "low", "cvssScore": 2.0, "fixedIn": ["2.0.0"], "from": ["goof@1.0.1", "st@1.2.2"], "ignored": true}
+  ]
+}

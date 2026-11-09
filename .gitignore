@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# scan output and triage cache — regenerate these, don't commit them
+snyk*.json
+findings*.json
+triage.json
+!examples/*.json
